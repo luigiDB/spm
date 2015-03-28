@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "test",
+  "short_name": "test",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "128": "assets/icon_128.png"
+  },
+  "browser_action":{
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+   "content_security_policy": "default-src 'none'; script-src 'self'; object-src 'self'"
+  
+}
