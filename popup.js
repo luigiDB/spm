@@ -12,7 +12,7 @@ window.onload = function() {
       var endIndex = activeUrl.indexOf("/", startIndex);
       console.log("end "+endIndex);
       activeUrl = activeUrl.substring(startIndex, endIndex);
-      document.querySelector('#greeting').innerText = 'Current url is ' + activeUrl;
+      document.querySelector('#greeting').innerText = activeUrl;
     });
   });
   console.log("end script");

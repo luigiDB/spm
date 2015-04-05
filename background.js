@@ -35,3 +35,17 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
     console.log("changeInfo URL: " + changeInfo.url);
   }
 });
+
+//scatta all'avvio dell'app
+/*
+chrome.app.runtime.onLaunched.addListener(function(launchData) {
+  chrome.app.window.create(
+    'index.html',
+    {
+      id: 'mainWindow',
+      bounds: {width: 800, height: 600}
+    }
+  );
+});
+
+*/
