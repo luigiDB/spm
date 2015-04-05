@@ -1,18 +1,17 @@
 {
   "name": "spm",
-  "version": "0.0.0",
-  "moduleType": [
-    "globals"
+  "description": "",
+  "homepage": "",
+  "keywords": [
   ],
-  "authors": [
-    "Luigi"
-  ],
-  "license": "MIT",
+  "author": "luigiDB",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#0.5.5",
+    "paper-elements": "Polymer/paper-elements#0.5.5"
+  },
   "ignore": [
-    "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ]
 }
